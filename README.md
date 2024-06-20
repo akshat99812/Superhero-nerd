@@ -14,7 +14,7 @@ Welcome to the Superhero Abilities Explorer! This project is built with Next.js 
 - [Next.js](https://nextjs.org/): A React framework for production.
 - [React](https://reactjs.org/): A JavaScript library for building user interfaces.
 - [CSS Modules](https://github.com/css-modules/css-modules): For scoped and maintainable CSS.
-- [Superhero API](https://superheroapi.com/): API to fetch superhero data.
+- [Superhero API](https://example.com/): API to fetch superhero data.
 
 ## Getting Started
 
@@ -30,7 +30,7 @@ To get a local copy up and running, follow these steps.
 1. Clone the repository:
     ```bash
     git clone https://github.com/your-username/superhero-abilities-explorer.git
-    cd superhero-abilities-explorer
+    cd superhero-nerd
     ```
 
 2. Install dependencies:
@@ -40,12 +40,8 @@ To get a local copy up and running, follow these steps.
     yarn install
     ```
 
-3. Create a `.env.local` file in the root of the project and add your Superhero API key:
-    ```env
-    NEXT_PUBLIC_SUPERHERO_API_KEY=your_api_key
-    ```
 
-4. Run the development server:
+3. Run the development server:
     ```bash
     npm run dev
     # or
@@ -54,55 +50,11 @@ To get a local copy up and running, follow these steps.
 
 5. Open your browser and navigate to `http://localhost:3000` to see the app in action.
 
-## Project Structure
-.
-├── components
-│ ├── HeroCard.js
-│ └── ...
-├── pages
-│ ├── index.js
-│ ├── _app.js
-│ └── ...
-├── public
-│ └── images
-├── styles
-│ ├── globals.css
-│ └── ...
-├── .env.local
-├── package.json
-└── ...
-
 
 - **components/**: Contains the React components.
 - **pages/**: Contains the Next.js pages.
 - **public/**: Contains static assets such as images.
 - **styles/**: Contains global and component-specific styles.
-
-## Usage
-
-1. **Browse Superheroes**: The homepage lists all available superheroes. Use the search bar to find specific heroes.
-2. **View Abilities**: Click on any superhero to view detailed information about their abilities.
-3. **Responsive Design**: Enjoy the app on both desktop and mobile devices.
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-## Acknowledgements
-
-- [Superhero API](https://superheroapi.com/) for providing the data.
-- [Next.js](https://nextjs.org/) for the awesome framework.
-- [React](https://reactjs.org/) for making UI development a breeze.
 
 ---
 
